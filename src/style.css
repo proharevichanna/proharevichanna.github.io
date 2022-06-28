@@ -1,0 +1,83 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.awesome {
+    padding: 0 15px;
+}
+
+.awesome_title h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.awesome_line {
+    width: 170px;
+    height: 0px;
+    margin: 0 auto;
+    background: #EC7979;
+    border: 1px solid #EC7979;
+}
+
+.awesome_subtitle {
+    margin-top: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+}
+
+.awesome_blocks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 71px;
+}
+
+.awesome_blocks_block {
+    width: 370px;
+    height: 383px;
+    margin: 0 0 58px;
+}
+
+.awesome_blocks_block_icon {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+}
+
+.awesome_blocks_block_title {
+    margin: 35px 0 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.awesome_blocks_block_description {
+    margin-top: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
