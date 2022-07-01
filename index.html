@@ -7,37 +7,145 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/style.css">
     <title>Block Awesome</title>
 </head>
 <body>
+
+    <header class="header">
+        <div class="header_container">
+            <div class="header_logo"><img src="src/img/logo.svg" alt="logo"></div>
+            <nav class="header_nav">
+                <ul class="header_nav_menu">
+                    <li class="header_nav_menu_link"><a class="header_nav_menu_a" href="#">Features</a></li>
+                    <li class="header_nav_menu_link"><a class="header_nav_menu_a" href="#">About</a></li>
+                    <li class="header_nav_menu_link"><a class="header_nav_menu_a" href="#">Pricing</a></li>
+                    <li class="header_nav_menu_link"><a class="header_nav_menu_a" href="#">Reviews</a></li>
+                    <li class="header_nav_menu_link"><a class="header_nav_menu_a" href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="promo">
+        <div class="container">
+            <div class="promo_block">
+                <div class="promo_info">
+                    <div class="promo_info_logo"><img src="/src/img/logo.svg" alt="logo"></div>
+                    <div class="promo_info_title">Modern axure template for beautiful prototypes</div>
+                    <div class="promo_info_line"></div>
+                    <div class="promo_info_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                    <button class="promo_info_button"><div class="promo_info_button_text">Download</div></button>
+                </div>
+                <div class="promo_form">
+                    <form action="#" class="promo_form_block">
+                        <div class="promo_form_block_title">Try your <span>free</span> trial today</div>
+                        <div class="promo_form_block_input"><input type="text" placeholder="Name"></div>
+                        <div class="promo_form_block_input"><input type="text" placeholder="Email"></div>
+                        <div class="promo_form_block_input"><input type="text" placeholder="Password"></div>
+                        <button class="promo_form_block_button">Get Started</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="social">
+        <div class="container">
+            <div class="social_block">
+                <div class="social_info">
+                    <div class="social_info_title">Social Media</div>
+                    <div class="social_info_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</div>
+                </div>
+                <div class="social_media flex-wrapper">
+                    <div class="social_media_image"><img src="/src/img/facebook.svg" alt="facebook"></div>
+                    <div class="social_media_image"><img src="/src/img/twitter.svg" alt="twitter"></div>
+                    <div class="social_media_image"><img src="/src/img/linkedin.svg" alt="linkedin"></div>
+                    <div class="social_media_image"><img src="/src/img/pinterest.svg" alt="pinterest"></div>
+                    <div class="social_media_image"><img src="/src/img/instagram.svg" alt="instagram"></div>
+                    <div class="social_media_image"><img src="/src/img/github.svg" alt="github"></div>
+                    <div class="social_media_image"><img src="/src/img/rss.svg" alt="rss"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tabs">
+        <div class="tabs_block">
+            <input type="radio" id="tab1" name="tab-group" checked>
+            <label for="tab1" class="tabs_block_title">Tab 1</label> 
+            <div class="tabs_block_content">
+                <div class="flex-wrapper">
+                    <div class="tabs_block_content_text">
+                        <div class="tabs_block_content_title">Tabs with soft transitioning effect.</div>
+                        <div class="tabs_block_content_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</div>
+                        <div class="tabs_block_content_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet</div>
+                        <button class="tabs_block_content_button">Download</button>
+                    </div>
+                    <div class="tabs_block_content_image"><img src="src/img/tabs.svg" alt="tabs"></div>
+                </div>
+            </div>
+        </div> 
+        <div class="tabs_block">
+            <input type="radio" id="tab2" name="tab-group">
+            <label for="tab2" class="tabs_block_title">Tab 2</label> 
+            <div class="tabs_block_content">
+                <div class="flex-wrapper">
+                    <div class="tabs_block_content_text">
+                        <div class="tabs_block_content_title tabs_block_content_title-red">Tabs with soft transitioning effect.</div>
+                        <div class="tabs_block_content_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</div>
+                        <div class="tabs_block_content_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet</div>
+                        <button class="tabs_block_content_button">Download</button>
+                    </div>
+                    <div class="tabs_block_content_image"><img src="src/img/tabs.svg" alt="tabs"></div>
+                </div>
+            </div>
+        </div>
+        <div class="tabs_block">
+            <input type="radio" id="tab3" name="tab-group">
+            <label for="tab3" class="tabs_block_title">Tab 3</label> 
+            <div class="tabs_block_content">
+                <div class="flex-wrapper">
+                    <div class="tabs_block_content_text">
+                        <div class="tabs_block_content_title tabs_block_content_title-blue">Tabs with soft transitioning effect.</div>
+                        <div class="tabs_block_content_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</div>
+                        <div class="tabs_block_content_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet</div>
+                        <button class="tabs_block_content_button">Download</button>
+                    </div>
+                    <div class="tabs_block_content_image"><img src="src/img/tabs.svg" alt="tabs"></div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+
     <section class="awesome">
         <div class="container">
             <div class="awesome_title"><h2>Why this is awesome</h2></div>
             <div class="awesome_line"></div>
             <div class="awesome_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-            <div class="awesome_blocks">
+            <div class="awesome_blocks flex-wrapper">
                 <div class="awesome_blocks_block">
                     <div class="awesome_blocks_block_icon">
                         <img src="src/img/lamp.svg" alt="lamp">
                     </div>
                     <div class="awesome_blocks_block_title">Thoughtful Design</div>
-                    <div class="awesome_blocks_block_description">Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br> elit. Aenean euismod bibendum laoreet. <br> Proin gravida  dolor sit amet lacus <br> accumsan et viverra.</div>
+                    <div class="awesome_blocks_block_description">Lorem isum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</div>
                 </div>
                 <div class="awesome_blocks_block">
                     <div class="awesome_blocks_block_icon">
                         <img src="src/img/keyboard.svg" alt="keyboard">
                     </div>
                     <div class="awesome_blocks_block_title">Thoughtful Design</div>
-                    <div class="awesome_blocks_block_description">Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br> elit. Aenean euismod bibendum laoreet. <br> Proin gravida  dolor sit amet lacus <br> accumsan et viverra.</div>
+                    <div class="awesome_blocks_block_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</div>
                 </div>
                 <div class="awesome_blocks_block">
                     <div class="awesome_blocks_block_icon">
                         <img src="src/img/lightning.svg" alt="lightning">
                     </div>
                     <div class="awesome_blocks_block_title">Thoughtful Design</div>
-                    <div class="awesome_blocks_block_description">Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br> elit. Aenean euismod bibendum laoreet. <br> Proin gravida  dolor sit amet lacus <br> accumsan et viverra.</div>
+                    <div class="awesome_blocks_block_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</div>
                 </div>
             </div>
         </div>
