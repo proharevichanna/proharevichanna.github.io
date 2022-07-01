@@ -314,6 +314,7 @@ a {
 .tabs_block_content_text {
     width: calc(100% - (470px + 30px));
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .tabs_block_content_title {
